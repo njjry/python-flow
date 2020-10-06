@@ -1,3 +1,7 @@
 faas-flow-infra/
 templates/
 test_function/
+greet.yml
+greet/
+../greet.yml
+../greet/

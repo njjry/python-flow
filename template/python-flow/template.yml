@@ -1,4 +1,4 @@
-language: python3
+language: python-flow
 fprocess: python3 index.py
 build_options:
   - name: dev
@@ -29,9 +29,9 @@ build_options:
       - harfbuzz-dev
       - fribidi-dev
 welcome_message: |
-  You have created a Python3 function using the Classic Watchdog.
+  You have created a Python-flow function using the Classic Watchdog.
 
-  To include third-party dependencies create a requirements.txt file.
+  To include third-party dependencies create a requirements.txt file or a requirements folder.
 
   For high-throughput applications, we recommend using the python3-flask
   or python3-http templates.

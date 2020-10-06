@@ -3,6 +3,4 @@ def handle(req):
     Args:
         req (str): request body
     """
-    print(req)
-
-    return "/home/qirui/work/faasflow/templates/template/python3/images"
+    return req
