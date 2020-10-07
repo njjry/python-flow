@@ -31,7 +31,7 @@ build_options:
 welcome_message: |
   You have created a Python-flow function using the Classic Watchdog.
 
-  To include third-party dependencies create a requirements.txt file or a requirements folder.
+  To include third-party dependencies create a requirements.txt file or a requirements folder. You can put other related files in the tmp folder
 
   For high-throughput applications, we recommend using the python3-flask
   or python3-http templates.

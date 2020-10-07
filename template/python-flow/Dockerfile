@@ -1,6 +1,6 @@
 FROM openfaas/classic-watchdog:0.18.1 as watchdog
 
-FROM python:3-alpine
+FROM python:3
 
 # Allows you to add additional packages via build-arg
 ARG ADDITIONAL_PACKAGE
@@ -18,6 +18,8 @@ WORKDIR /home/app/
 COPY index.py           .
 COPY constant.py        .
 COPY requirements.txt   .
+COPY tmp/           /tmp/
+
 
 RUN chown -R app /home/app && \
   mkdir -p /home/app/python && chown -R app /home/app
